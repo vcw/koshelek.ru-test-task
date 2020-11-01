@@ -1,6 +1,6 @@
 # Тестовое задание в koshelek.ru
 
-Посмотреть на результат можно [здесь](https://vcw.github.io/koshelek.ru-test-task/)
+Посмотреть на результат можно [здесь](https://vcw.github.io/koshelek.ru-test-task/index.html)
 
 ## Чтобы развернуть проект
 
