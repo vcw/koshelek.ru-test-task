@@ -4,7 +4,9 @@
 
     <div class="dropdown">
       <header class="dropdown__header">
-        <h2 class="dropdown__heading">Symbol</h2>
+        <a href="#" class="dropdown__link">
+          <h2 class="dropdown__heading">Symbol</h2>
+        </a>
         <h3 class="dropdown__current">{{ symbol }}</h3>
       </header>
       <ul class="dropdown__list">
