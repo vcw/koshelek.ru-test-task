@@ -135,7 +135,7 @@ export default {
   watch: {
     book(prev, next) {
       if (prev && next) {
-        const diff = diffMessage(prev, next);
+        const diff = diffMessage(prev, next, this.symbol);
         this.$core.eventBus.publish('diff', diff);
       }
     },

@@ -135,6 +135,7 @@ export default {
   methods: {
     handleDiffMessage(message) {
       this.diff = message;
+      this.symbol = message.symbol;
     },
   },
   watch: {

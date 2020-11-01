@@ -96,7 +96,7 @@ function diffList(prev, next) {
   };
 }
 
-export function diffMessage(prev, next) {
+export function diffMessage(prev, next, symbol) {
   const prevBook = { ...prev };
   const nextBook = { ...next };
 
@@ -110,5 +110,6 @@ export function diffMessage(prev, next) {
     nextId: newUpdateId,
     bids: diffList(bids, newBids),
     asks: diffList(asks, newAsks),
+    symbol,
   };
 }
