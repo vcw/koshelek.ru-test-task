@@ -1,0 +1,43 @@
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+  padding: 1rem;
+  width: 60rem;
+}
+.book__table {
+  width: 28rem;
+}
+.book__wrapper {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 95vw;
+  max-width: 60rem;
+  height: 90vh;
+  overflow: scroll;
+}
+.book__wrapper:hover::-webkit-scrollbar {
+  width: .6rem;
+  height: .6rem;
+}
+.book__wrapper:hover::-webkit-scrollbar-track {
+  border-radius: .3rem;
+  background: #CCC;
+}
+.book__wrapper:hover::-webkit-scrollbar-thumb {
+  border-radius: .3rem;
+  background: #555;
+}
+.table__caption {
+  padding: .5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  background: #EEE;
+}
+.table__header {
+  text-align: left;
+}
+
